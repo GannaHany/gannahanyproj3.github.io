@@ -1,0 +1,350 @@
+
+  
+.signform{
+    animation: moveDown 0.5s ease-in-out forwards;
+    position: relative;
+	padding: 8px;
+	border-radius: 2%;
+	margin-top: 20px; 
+    margin-left: 36%;
+    margin-bottom: 20px;
+	height: 540px;
+	width: 330px;
+    background-color: rgba(82, 15, 15, 0.836);
+    box-shadow:  0 10px 15px 0 rgba(61, 2, 2, 0.836), 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+   
+
+}
+.signform:hover{
+    animation-name: moveDown;
+   
+    
+}
+@keyframes moveDown {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(300px); }
+}
+
+.signsignup{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-color: transparent;
+}
+
+.signinputs{
+	height: 30px;
+	width: 270px;
+	border-radius: 6px;
+	border-color: rgb(138, 95, 106);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.274), 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+}
+#signsubbutton{
+    height: 38px;
+    width: 270px; 
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px;  
+    margin-top: 20px;
+    background-color: #742c2c;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 10px 0 rgba(92, 33, 33, 0.274), 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+    transition: 0.4s;
+}
+
+#signsubbutton:hover{
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(0.9,0.9);
+}
+#login{
+    height: 38px;
+    width: 270px; 
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px;  
+    margin-top: 20px;
+    background-color: #742c2c;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 10px 0 rgba(92, 33, 33, 0.274), 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+    transition: 0.4s;
+
+}
+#login:hover{
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(0.9,0.9);
+
+}
+
+.signsign{
+    text-align: center;
+    font-size: 21px;
+	font-weight: 900;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:rgb(231, 222, 222);
+   
+    
+
+}
+.login{
+    text-align: center;
+    font-size: 21px;
+	font-weight: 900;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:rgb(231, 222, 222);
+}
+.signreg{
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-left: 40px;
+
+}
+.signreglink{
+   
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.signreglink:hover{
+    color: rgb(18 16 93);
+
+
+}
+.signfb{
+    
+    height: 38px;
+    width: 270px;   
+    margin-left:25px ;
+    margin-top: -10px;
+    background-color: #033855;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.274), 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    transition: 0.4s;
+
+}
+.signfb:hover{
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(0.9,0.9);
+}
+
+.signor{
+    margin-top: -7px;
+    text-align: center;
+}
+.signgoogle{
+    height: 38px;
+    width: 270px;   
+    margin-left:25px ;
+    margin-top: 15px;
+    background-color:whitesmoke;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.274), 0 10px 20px 0 rgba(0, 0, 0, 0.274);
+    
+    color: #033855;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.signgoogle:hover{
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(0.9,0.9);
+
+}
+.signiconform{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
+#passcond{
+  margin-top: -10px;
+  color: rgba(252, 252, 252,0.7);
+  font-size: 15px;
+
+}
+.nav{
+    display: flex;
+}
+#navbar{
+    
+    margin-left: auto;
+    position:sticky;
+    
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    transition: 0.4s; 
+    border-radius: 100%;
+}
+#logo:hover{
+    transform: scale(0.9,0.9);
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 29px;
+    list-style: none;
+    padding: 20px;
+    width: 500px;
+    background-color: rgba(136, 39, 39, 0.651);
+    
+}
+
+.listnav{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+
+    
+}
+.listnav:hover{
+    color: rgba(27, 20, 20, 0.76);
+    text-decoration:underline;
+    
+}
+
+
+/* .navicon{
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+    
+} 
+
+.navicon:hover{
+    transform: scale(0.9,0.9);
+} */
+
+.carticon{
+    width: 25px;
+    height: 25px;
+    transition: 0.4s;
+    
+    cursor: pointer;
+    margin: 10px;
+    margin-right: 20px;
+    margin-top: -1px;
+}
+.carticon:hover{
+    transform: scale(0.9,0.9);
+
+}
+
+
+.footer-content{
+    margin-left: -80px;
+}
+.footer-content ul{
+    list-style: none;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+}
+
+
+.footer-content a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 700;
+    
+    
+
+}
+.footer-content a:hover{
+    color:black ;
+    text-decoration: underline;
+
+}
+.footer-content p{
+    color:papayawhip;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color:rgba(116, 38, 38, 0.63);
+    padding: 5px 0;
+    
+}
+.footer-contact{
+   margin-right: -80px;
+    
+
+}
+.icons img{
+    width: 25px;
+    height: 25px;
+    
+}
+.icons img:hover{
+    width: 21px;
+    height: 21px;
+}
+.footer-contact h3{
+    color: papayawhip;
+    font-weight: 700;
+    font-size: 21px;
+
+}
+.footer-contact p{
+    color:  papayawhip;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-contact a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.footer-contact a:hover{
+    color: black;
+    text-decoration:underline;
+}
+hr{
+    height: 2px;
+    border-color: grey;
+    color: grey;
+    
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    color: whitesmoke;
+    font-weight: 800;
+    
+}
+
+.upperfooter{
+    display: flex;
+    justify-content: space-around;
+}
+.map{
+    width: 250px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+ 

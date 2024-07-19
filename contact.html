@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<style>
+    body{
+        background-image:url(imgs/BG4.webp);
+        background-size: cover;
+    }
+</style>
+<body>
+
+    <div class="nav">
+        <img src="imgs/logo2.png" alt="" id="logo">
+        <nav id="navbar">
+            <ul class="lists">
+                <li><a href="./index.html" class="listnav">Home</a></li> 
+                <li><a href="./contact.html" class="listnav">Contact Us</a></li>
+                <li><a href="./signup.html" class="listnav">SignUp</a></li>
+                <img src="imgs/grocery-store.png" alt="" class="carticon" title="shopping cart">
+                
+            </ul>
+        </nav>
+        
+    </div>
+    <div class="contselectall">
+        <h1 class="contheader">Contact Us</h1>
+        <form class="contmyform" action="submit_contact_form.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Full Name" class="conticon"required>
+
+            <input type="email" id="email" name="email" placeholder="Email" class="contmail"required>
+
+            <textarea class="conttexta" id="message" name="message" placeholder="Message"></textarea>
+
+            <button class="contbutt" type="submit" onclick="showMessage()">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="upperfooter">
+                <div class="footer-content">
+                    <p>Sparkle like you mean it.</p>
+                    <ul>
+                        <li><a href="#explore">Explore</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#feedbacks">Feedbacks</a></li>
+
+                        
+                    </ul> 
+
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179279.22182971527!2d12.38733285!3d45.404543249999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1daf1d63d89%3A0x7ba3c6f0bd92102f!2sVenice%2C%20Metropolitan%20City%20of%20Venice%2C%20Italy!5e0!3m2!1sen!2seg!4v1721075765303!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="footer-contact">
+                    <h3>Have a question?</h3>
+                    <p>Call us on <a href="#">+099999999</a></p>
+                    <p>Send us on Email: <a href="mailto:gannahany2012@gmail.com" >gannahany2012@gmail.com</a></p>
+                    <div class="icons">
+                      <a href="#"><img src="imgs/fbicon.jpeg" alt=""></a>
+                      <a href="#"><img src="imgs/igicon.jpeg" alt=""></a>
+                      <a href="#"><img src="imgs/linkdnicon.jpeg" alt=""></a>
+                      <a href="#"><img src="imgs/twittericon.jpeg" alt=""></a>
+                    </div>
+                    <p id="demo"></p>
+                </div>
+                
+            </div>
+            <hr>
+            <p class="copyright">Copyright &#169; 2024 All rights reserved | This website is made by The Litte Things</p>
+        </footer>
+    </div>
+    <script>
+        function showMessage(){
+            alert("Thank You For Reaching Us")
+        }
+    </script>
+</body>
+</html>

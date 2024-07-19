@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<style>
+  body{
+    background-image: linear-gradient(to top, rgba(116, 38, 38, 0.993),rgba(136, 68, 68, 0.904),rgba(168, 75, 75, 0.774));
+}
+</style>
+<body>
+    <header>
+      <div class="nav">
+        <img src="imgs/logo2.png" alt="" id="logo">
+        <nav id="navbar">
+            <ul class="lists">
+                <li><a href="./index.html" class="listnav">Home</a></li> 
+                <li><a href="./contact.html" class="listnav">Contact Us</a></li>
+                <li><a href="./signup.html" class="listnav">SignUp</a></li>
+                <img src="imgs/grocery-store.png" alt="" class="carticon" title="shopping cart">
+                <span class="quantity">0</span>
+            </ul>
+
+
+        </nav>
+        
+    </div>
+      <div class="Cart">
+        <div class="head">
+          <h1>your cart</h1>
+          <p class="close">X</p>
+        </div>
+
+          <div class="list">
+              <ul class="cartlist"></ul>
+          </div> 
+          <div class="total">
+              <div class="total-title">Total:</div>
+              <div class="total-price">0</div>
+          </div>
+      </div>
+  </header>
+  <hr>
+        
+  <section class="container">
+      <div class="content">
+      </div>
+  </section>
+  <div id="paymentsec">
+  <div class="contain billing-container"  >
+    <form action="" method="post">
+        <h3 class="titlee">Billing Address</h3>
+        <div class="inputBox">
+            <span>Full name:</span>
+            <input type="text" placeholder="Enter your full name">
+        </div>
+        <div class="inputBox">
+            <span>Email:</span>
+            <input type="email" placeholder="example@example.com">
+        </div>
+        <div class="inputBox">
+            <span>City:</span>
+            <input type="text" placeholder="City">
+        </div>
+        <div class="inputBox">
+            <span>Zip code:</span>
+            <input type="text" placeholder="123456">
+        </div>
+    </form>
+    
+</div>
+<div class="contain payment-options">
+    <button class="btn payment-option" data-payment-method="credit-card">Credit Card</button>
+    <button class="btn payment-option" data-payment-method="paypal">PayPal</button>
+    <button class="btn payment-option" data-payment-method="mobile-wallet">Mobile Wallet</button>
+</div>
+<div class="contain payment-form credit-card" style="display: none;">
+    <form action="" method="post">
+        <h3 class="titlee">Credit Card Payment</h3>
+        <div class="inputBox">
+            <span>Name on Card:</span>
+            <input type="text" placeholder="Name on card">
+        </div>
+        <div class="inputBox">
+            <span>Credit Card Number:</span>
+            <input type="text" placeholder="1111-2222-3333-4444">
+        </div>
+        <div class="inputBox">
+            <span>Exp Month:</span>
+            <input type="text" placeholder="Month">
+        </div>
+        <div class="btn-box">
+            <a  class="btn">Proceed to Checkout</a>
+        </div>
+    </form>
+</div>
+<div class="contain payment-form paypal" style="display: none;">
+    <form action="" method="post">
+        <h3 class="titlee">PayPal Payment</h3>
+        <div class="inputBox">
+            <span>Account Name:</span>
+            <input type="text" placeholder="Account Name">
+        </div>
+        <div class="inputBox">
+            <span>PayPal Email:</span>
+            <input type="email" placeholder="paypal@mail.com">
+        </div>
+        <div class="btn-box">
+            <a class="btn">Proceed to Checkout</a>
+        </div>
+    </form>
+</div>
+<div class="contain payment-form mobile-wallet" style="display: none;">
+    <form action="" method="post">
+        <h3 class="titlee">Mobile Wallet Payment</h3>
+        <div class="inputBox">
+            <span>Name:</span>
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="inputBox">
+            <span>Phone Number:</span>
+            <input type="text" placeholder="Phone Number">
+        </div>
+        <div class="btn-box">
+            <a class="btn">Proceed to Checkout</a>
+        </div>
+    </form>
+</div>
+</div>
+ 
+
+
+
+
+
+
+
+
+ 
+
+ <div class="footer">
+        <footer>
+            <div class="upperfooter">
+                <div class="footer-content">
+                    <p>Sparkle like you mean it.</p>
+                    <ul>
+                        <li><a href="#explore">Explore</a></li>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#feedbacks">Feedbacks</a></li>
+
+                        
+                    </ul> 
+
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d179279.22182971527!2d12.38733285!3d45.404543249999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477eb1daf1d63d89%3A0x7ba3c6f0bd92102f!2sVenice%2C%20Metropolitan%20City%20of%20Venice%2C%20Italy!5e0!3m2!1sen!2seg!4v1721075765303!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="footer-contact">
+                    <h3>Have a question?</h3>
+                    <p>Call us on <a href="#">+099999999</a></p>
+                    <p>Send us on Email: <a href="mailto:gannahany2012@gmail.com" >gannahany2012@gmail.com</a></p>
+                    <div class="icons">
+                      <a href="#"><img src="imgs/fbicon.jpeg" alt=""></a>
+                      <a href="#"><img src="imgs/igicon.jpeg" alt=""></a>
+                      <a href="#"><img src="imgs/linkdnicon.jpeg" alt=""></a>
+                      <a href="#"><img src="imgs/twittericon.jpeg" alt=""></a>
+                    </div>
+                    <p id="demo"></p>
+                </div>
+                
+            </div>
+            <hr>
+            <p class="copyright">Copyright &#169; 2024 All rights reserved | This website is made by The Litte Things</p>
+        </footer>
+    </div> 
+    
+    <script >
+      document.querySelectorAll('.payment-option').forEach(option => {
+option.addEventListener('click', () => {
+const paymentMethod = option.dataset.paymentMethod;
+document.querySelectorAll('.payment-form').forEach(form => {
+form.style.display = form.classList.contains(paymentMethod) ? 'block' : 'none';
+});
+});
+});
+
+let cart= document.querySelector(".Cart")
+let cartlist =document.querySelector(".cartlist")
+let content =document.querySelector(".content")
+let quantity= document.querySelector(".quantity")
+let list =document.querySelector(".list")
+let close= document.querySelector(".close")
+let total =document.querySelector(".total-price")
+
+let cartIcon= document.querySelector(".carticon")
+cartIcon.addEventListener("click", ()=>{
+  cart.classList.add("active")
+  
+})
+close.addEventListener("click",()=>{
+  cart.classList.remove("active")
+})
+
+    let products=[
+    {
+    id:1,
+    name:"Royal Blue Ring",
+    image:"ring1.jpg",
+    price:250,
+  },
+  {
+    id:2,
+    name:"Rapaunzel Earrings",
+    image:"rapunzelearrings.jfif",
+    price:300,
+  },
+  {
+    id:3,
+    name:"Rapaunzel Necklace",
+    image:"rapunzel.jfif",
+    price:450,
+  },
+  {
+    id:4,
+    name:"Sherlock Pocket Watches",
+    image:"pocketwatch.jfif",
+    price:450,
+  },
+  {
+    id:5,
+    name:"Rose Gold Bridal Set",
+    image:"rosegoldbridalset.jfif",
+    price:10000,
+  },
+  {
+    id:6,
+    name:"Diana Dimond Set",
+    image:"dimond set.jfif",
+    price:1500,
+  },
+  {
+    id:7,
+    name:"Marlin Dimond Ring",
+    image:"dimond.jfif",
+    price:12000,
+  },
+  {
+    id:8,
+    name:"Crystal Necklace",
+    image:"iceset.jfif",
+    price:16000,
+  },
+  {
+    id:9,
+    name:"Victorian Emerald Necklace",
+    image:"victorianemerald.jfif",
+    price:50000,
+  },
+  {
+    id:10,
+    name:"Moon Brooch",
+    image:"moonbrooch.avif",
+    price:1600,
+  },
+  {
+    id:11,
+    name:"Victorian Green Stone Set ",
+    image:"victorian.webp",
+    price:65000,
+  },
+  {
+    id:12,
+    name:"Initial Star Necklace",
+    image:"starnecklace.jpg",
+    price:250,
+  },
+  
+]
+let listcarts=[]
+function initApp(){
+  products.forEach((value)=>{
+    let newDiv = document.createElement("div")
+    newDiv.classList.add("product-box")
+    newDiv.innerHTML=`
+    <img src="imgs/${value.image}">
+    <h2>${value.name}</h2>
+    <span>${value.price}</span>
+    <button onclick="addTocart(${value.id})">add To cart</button>
+    <a href="#paymentsec"><img src="imgs/buy-now.png" alt="" id ="mybtn" ></a>
+     `
+    content.appendChild(newDiv)
+
+  })
+}
+initApp()
+
+function addTocart(id){
+
+  let product = products.find((p)=> p.id===id)
+  let productIndex= listcarts.findIndex((p)=> p.id===id)
+  if(productIndex>-1){
+    listcarts[productIndex].quantity += 1
+  }
+  else{
+    listcarts.push({...product,quantity:1})
+  }
+  reloadCart()
+}
+function reloadCart(){
+  cartlist.innerHTML=""
+  let totalprice=0
+  let count =0
+  listcarts.forEach((value)=>{
+    totalprice +=value.price*value.quantity
+    count += value.quantity;
+    let newli= document.createElement("li")
+    newli.classList.add("box")
+    newli.innerHTML=`
+    <div><img src="imgs/${value.image}"></div>
+     <div class="title"> ${value.name}</div>
+    <div class="change">
+       <button onclick="changeQuantity(${value.id},${value.quantity +1})" class="btnn">+</button>
+       <div class="num">${value.quantity}</div>
+       <button onclick="changeQuantity(${value.id},${value.quantity -1})" class="btnn">-</button>
+    </div>
+   
+    `
+    cartlist.appendChild(newli)
+  })
+    total.innerHTML= totalprice + " EG"
+    quantity.innerHTML= count;
+    localStorage.setItem("product", JSON.stringify(listcarts))
+
+  
+}
+function changeQuantity(id, newQuantity){
+  let productIndex = listcarts.findIndex((p)=>p.id===id)
+  if(newQuantity===0){
+  listcarts.splice(productIndex,1)
+
+}else{
+  listcarts[productIndex].quantity=newQuantity
+}
+reloadCart()
+}
+if (localStorage.product != null){
+  listcarts = JSON.parse(localStorage.product)
+ 
+}
+getProductLocalStorage()
+
+function getProductLocalStorage(){
+  
+  localStorage.getItem("product")
+  reloadCart()
+}
+
+
+  
+    </script>
+</body>
+</html>
